@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<% #GET ROUTE View%>
 <html>
   <head>
     <meta charset="UTF-8">
@@ -8,8 +9,8 @@
 
   <body>
     <h1>The Ultimate String Reverser</h1>
-
     <form method="POST" action="/reverse">
+      <% #                      key of params hash!!%>
       <input type="text" name="string">
       <input type="submit">
     </form>
